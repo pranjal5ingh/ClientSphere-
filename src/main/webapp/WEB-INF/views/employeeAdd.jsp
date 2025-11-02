@@ -19,7 +19,8 @@
 	rel="stylesheet">
 
 <!-- Custom Styling -->
-<link rel="stylesheet" type="text/css"href="css/admin-profile-style.css">
+<link rel="stylesheet" type="text/css"
+	href="css/admin-profile-style.css">
 
 <style>
 body {
@@ -39,20 +40,44 @@ keyframes gradientShift { 0% {
 }
 
 50
+
+
 %
 {
 background-position
+
+
 :
-100%
-50%;
-}
+
+
 100
 %
+
+
+50
+%;
+
+
+}
+100
+
+
+%
 {
 background-position
+
+
 :
-0%
-50%;
+
+
+0
+%
+
+
+50
+%;
+
+
 }
 }
 .card {
