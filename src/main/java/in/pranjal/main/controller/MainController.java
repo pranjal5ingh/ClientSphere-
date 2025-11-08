@@ -1,5 +1,9 @@
 package in.pranjal.main.controller;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,10 +23,12 @@ import jakarta.validation.Valid;
 
 
 @Controller
-public class MainController {
+public class EmployeeController {
 
     @Autowired
 	EmpServices empServices;
+    
+   
 
     
 	@GetMapping("/")
@@ -166,14 +172,6 @@ public class MainController {
 	    return "redirect:/empManager";
 		
 	}
-	@GetMapping("/productAdd")
-	public String openProductsAddPage() {
-		return "productsAdd";
-	}
 	
-//	@PostMapping("/addProductForm")
-//	public String addProductForm() {
-//		
-//	}
-
+	
 }
